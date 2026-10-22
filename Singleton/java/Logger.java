@@ -1,12 +1,12 @@
-public class Singleton {
-    private static Singleton instance;
+public class Logger {
+    private static Logger instance;
     private int numOfMessages = 0;
 
-    private Singleton() {}
+    private Logger() {}
 
-    public static Singleton getInstance(){
+    public static Logger getInstance(){
         if(instance == null){
-            instance = new Singleton();
+            instance = new Logger();
         }
         return instance;
     }
@@ -17,8 +17,8 @@ public class Singleton {
     }
 
     static void main(String[] args) {
-        Singleton a = Singleton.getInstance();
-        Singleton b = Singleton.getInstance();
+        Logger a = Logger.getInstance();
+        Logger b = Logger.getInstance();
 
         a.log("Program started");
         b.log("Loading data");

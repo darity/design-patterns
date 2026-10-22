@@ -1,23 +1,23 @@
-#include "Singleton.h"
+#include "Logger.h"
 #include <iostream>
 
-Singleton* Singleton::instance = nullptr;
+Logger* Logger::instance = nullptr;
 
-Singleton* Singleton::getInstance() {
+Logger* Logger::getInstance() {
     if (instance == nullptr) {
-        instance = new Singleton();
+        instance = new Logger();
     }
     return instance;
 }
 
-void Singleton::log(std::string message) {
+void Logger::log(std::string message) {
     numOfMessages++;
     std::cout<< "[" << numOfMessages << "] " << message << std::endl;
 }
 
 int main() {
-    Singleton* a = Singleton::getInstance();
-    Singleton* b = Singleton::getInstance();
+    Logger* a = Logger::getInstance();
+    Logger* b = Logger::getInstance();
 
     a->log("Program started");
     b->log("Loading data");
