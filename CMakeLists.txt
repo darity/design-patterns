@@ -5,6 +5,13 @@ set(CMAKE_CXX_STANDARD 14)
 
 include_directories(Singleton/cpp)
 
-add_executable(PS
+add_executable(PS_Singleton
         Singleton/cpp/Logger.cpp
-        Singleton/cpp/Logger.h)
+        Singleton/cpp/Logger.h
+        )
+
+add_executable(PS_Facade
+        Facade/cpp/HomeCinema.h
+        Facade/cpp/HomeCinema.cpp
+        Facade/cpp/CinemaSystem.h
+)
