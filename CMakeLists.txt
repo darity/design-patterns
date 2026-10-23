@@ -25,3 +25,4 @@ add_executable(PS_FactoryMethod
         FactoryMethod/cpp/Transport.cpp
         FactoryMethod/cpp/Transport.h
 )
+add_executable(PS_Prototype Prototype/cpp/Shape.cpp Prototype/cpp/Shape.h)
