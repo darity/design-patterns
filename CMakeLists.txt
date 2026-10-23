@@ -15,3 +15,8 @@ add_executable(PS_Facade
         Facade/cpp/HomeCinema.cpp
         Facade/cpp/CinemaSystem.h
 )
+
+add_executable(PS_Strategy
+        Strategy/cpp/Cart.h
+        Strategy/cpp/Cart.cpp
+)
