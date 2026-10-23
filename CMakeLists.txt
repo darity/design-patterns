@@ -20,3 +20,6 @@ add_executable(PS_Strategy
         Strategy/cpp/Cart.h
         Strategy/cpp/Cart.cpp
 )
+add_executable(PS_TemplateMethod
+        TemplateMethod/cpp/Beverage.cpp
+        TemplateMethod/cpp/Beverage.h)
