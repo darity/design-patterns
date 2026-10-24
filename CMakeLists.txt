@@ -26,3 +26,4 @@ add_executable(PS_FactoryMethod
         FactoryMethod/cpp/Transport.h
 )
 add_executable(PS_Prototype Prototype/cpp/Shape.cpp Prototype/cpp/Shape.h)
+add_executable(PS_Command Command/cpp/Command.cpp Command/cpp/Command.h)
