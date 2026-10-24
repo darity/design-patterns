@@ -32,3 +32,4 @@ add_executable(PS_Decorator Decorator/cpp/CoffeeDecorator.cpp Decorator/cpp/Coff
 add_executable(PS_Observer Observer/cpp/WeatherStation.cpp Observer/cpp/WeatherStation.h)
 add_executable(PS_Proxy Proxy/cpp/ImageProxy.cpp Proxy/cpp/ImageProxy.h)
 add_executable(PS_Composite Composite/cpp/FileSystemItem.cpp Composite/cpp/FileSystemItem.h)
+add_executable(PS_Bridge Bridge/cpp/RemoteControl.cpp Bridge/cpp/RemoteControl.h)
