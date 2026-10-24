@@ -28,3 +28,4 @@ add_executable(PS_FactoryMethod
 add_executable(PS_Prototype Prototype/cpp/Shape.cpp Prototype/cpp/Shape.h)
 add_executable(PS_Command Command/cpp/Command.cpp Command/cpp/Command.h)
 add_executable(PS_Adapter Adapter/cpp/PaymentProcessor.cpp Adapter/cpp/PaymentProcessor.h)
+add_executable(PS_Decorator Decorator/cpp/CoffeeDecorator.cpp Decorator/cpp/CoffeeDecorator.h)
