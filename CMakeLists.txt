@@ -31,3 +31,4 @@ add_executable(PS_Adapter Adapter/cpp/PaymentProcessor.cpp Adapter/cpp/PaymentPr
 add_executable(PS_Decorator Decorator/cpp/CoffeeDecorator.cpp Decorator/cpp/CoffeeDecorator.h)
 add_executable(PS_Observer Observer/cpp/WeatherStation.cpp Observer/cpp/WeatherStation.h)
 add_executable(PS_Proxy Proxy/cpp/ImageProxy.cpp Proxy/cpp/ImageProxy.h)
+add_executable(PS_Composite Composite/cpp/FileSystemItem.cpp Composite/cpp/FileSystemItem.h)
