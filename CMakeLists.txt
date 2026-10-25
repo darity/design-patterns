@@ -22,3 +22,4 @@ add_executable(PS_Builder Builder/cpp/ComputerBuilder.cpp Builder/cpp/ComputerBu
 add_executable(PS_AbstractFactory AbstractFactory/cpp/Application.cpp AbstractFactory/cpp/Application.h)
 add_executable(PS_Mediator Mediator/cpp/ChatMediator.cpp Mediator/cpp/ChatMediator.h)
 add_executable(PS_Memento Memento/cpp/EditorMemento.cpp Memento/cpp/EditorMemento.h)
+add_executable(PS_Flyweight Flyweight/cpp/TreeType.cpp Flyweight/cpp/TreeType.h)
