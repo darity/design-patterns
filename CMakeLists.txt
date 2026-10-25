@@ -20,3 +20,4 @@ add_executable(PS_Composite Composite/cpp/FileSystemItem.cpp Composite/cpp/FileS
 add_executable(PS_Bridge Bridge/cpp/RemoteControl.cpp Bridge/cpp/RemoteControl.h)
 add_executable(PS_Builder Builder/cpp/ComputerBuilder.cpp Builder/cpp/ComputerBuilder.h)
 add_executable(PS_AbstractFactory AbstractFactory/cpp/Application.cpp AbstractFactory/cpp/Application.h)
+add_executable(PS_Mediator Mediator/cpp/ChatMediator.cpp Mediator/cpp/ChatMediator.h)
